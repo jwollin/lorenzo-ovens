@@ -1,0 +1,52 @@
+/*
+ * TYPOGRAPHY
+ ----------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.main-navigation li a,
+.site-footer li a {
+  font-family: $oswald, Helvetica Neue, Sans-Serif;
+}
+p {
+  font-family: $raleway, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 2.25rem;
+}
+h3 {
+  font-size: 2rem;
+}
+.site-description {
+  font-size: 3rem;
+}
+h2:first-child,
+h1:first-child,
+.comment-reply-title {
+  margin-top: 0;
+}
+.footer-copyright {
+  font-size: .75rem;
+}
+.site-footer h4 {
+  font-size: 2.5rem;
+  padding: 40px;
+  margin: 0 0 80px 0;
+}
+.footer-menu ul li a:link {
+  font-size: 1.5rem;
+}
+.site-footer .designer-link {
+  text-decoration: underline;
+}
+.comments-title,
+.comment-reply-title {
+  font-size: 1.5rem;
+}
+.comments-area p {
+  font-size: .9rem;
+}

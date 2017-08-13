@@ -1,0 +1,165 @@
+/*
+ * GLOBALS
+ --------------------------------------------------*/
+a {
+  color: $bright-red;
+}
+a:active {
+  color: $dark-orange;
+}
+a:visited {
+  color: $med-red;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $bright-red;
+}
+
+/*
+ * REDS, ORANGES, YELLOWS AND TANS
+ --------------------------------------------------*/
+.site-banner,
+.footer-top,
+.site-footer h4 {
+  background: $dark-red;
+}
+
+.footer-top:before {
+  background:
+          linear-gradient(
+                          45deg, transparent 33.333%,
+                          $dark-red 33.333%, $dark-red 66.667%,
+                          transparent 66.667%
+          ),
+          linear-gradient(
+                          -45deg, transparent 33.333%,
+                          $dark-red 33.333%, $dark-red 66.667%,
+                          transparent 66.667%
+          );
+}
+.site-footer {
+  background-color: $med-red;
+}
+#primary-menu li a {
+  color: $bright-red;
+}
+.comment-form .submit,
+.search-submit,
+.comment-form .submit:hover,
+.search-submit:hover {
+  background: $bright-red !important;
+}
+.btn:visited {
+  color: $white;
+}
+.btn:hover {
+  background-color: $med-red;
+}
+.site-footer h4,
+.site-footer h5,
+.site-footer h6 {
+  color: $tan;
+}
+.site-footer .footer-menu li a:link,
+.site-footer a:link,
+.site-footer .social-menu a:link {
+  color: $tan;
+}
+.site-footer .footer-menu li a:visited,
+.site-footer a:visited,
+.site-footer .social-menu a:visited {
+  color: $tan;
+}
+.site-footer .footer-menu li a:hover,
+.site-footer a:hover,
+.site-footer .social-menu a:hover {
+  color: #eda24f;
+}
+.site-footer .footer-copyright a:link {
+  color: #eda24f;
+}
+.site-footer .textwidget {
+  color: $tan;
+}
+.site-info h4 {
+  color: $tan;
+}
+.site {
+  background-color: $tan;
+}
+.services-menu-item {
+  color: $tan;
+}
+.services-menu-item h3 {
+  color: $tan;
+}
+/*
+ * BLACK, WHITE AND GRAYS
+ --------------------------------------------------*/
+.main-navigation {
+  color: $black;
+  box-shadow: 0 0 0 0;
+}
+.site-header {
+  border-bottom: thin solid $black;
+}
+.site-banner .site-description {
+  color: white;
+  text-shadow: 0 0 8px $black;
+}
+.site-footer h4 {
+  text-shadow: 0 0 5px 10px $black;
+}
+.card-item {
+  border: thin solid $dark-gray;
+}
+.comment-form .submit,
+.search-submit,
+.site-header h6 {
+  color: $med-gray;
+}
+.site-header .social-menu a {
+  color: $med-gray;
+}
+.site-header .social-menu a:hover {
+  color: $pale-yellow;
+}
+.site-header nav .sub-menu .menu-item:first-child {
+  border-top: thin solid $light-gray;
+}
+.comment-content {
+  border-top: 2px solid $light-gray;
+}
+.site-header {
+  background-color: $white;
+}
+.site-header nav .sub-menu .menu-item {
+  background-color: $white;
+}
+.comment-form .submit:hover,
+.search-submit:hover,
+.site-title a,
+.site-description,
+.site-footer {
+  color: $white;
+}
+.site-header .children .page_item {
+  background-color: $white;
+}
+/*
+ * TRANSPARENT
+ --------------------------------------------------*/
+
+.comment-form .submit:hover,
+.search-submit:hover {
+  box-shadow: 0 0 0 0 transparent !important;
+  border: none;
+}
+
+.post-navigation {
+  box-shadow: 0 0 0 0 transparent;
+}

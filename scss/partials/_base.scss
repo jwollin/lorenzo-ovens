@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+.mobile-menu .col {
+  position: relative;
+  z-index: 25;
+}
+.site-header {
+  padding: 0 0 0 0;
+  z-index: 1;
+}
+.site-header nav .sub-menu {
+  margin-top: 41px;
+}
+.header-cover {
+  z-index: 5;
+}
+.site-title a {
+  font-size: 3.5rem;
+}
+.site-header .logo {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.site-header .row {
+  margin: 0;
+}
+.site-content {
+  margin-top: 30px;
+}
+.site-banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 0;
+  position: relative;
+}
+.btn {
+  z-index: 10;
+}
+.card {
+  padding: 20px;
+}
+.site-banner {
+  margin-bottom: 0;
+}
+.content-row {
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin-top: 0;
+  padding-top: 20px;
+}
+#wdi_feed_0 .wdi_photo_wrap_inner {
+  border: none;
+  padding: 20px;
+}
+.services-menu .col {
+  padding: 0;
+}
+.services-menu-item h3 {
+  margin: 0;
+  padding: 15px 20px;
+  text-align: center;
+}
+.services-menu-item {
+  background-size: cover;
+  background-position: center;
+  padding: 10px 0;
+  text-align: center;
+}
+.footer-top {
+  height: 25px;
+  margin: 50px 0 0 0;
+}
+.site-footer {
+  padding-bottom: 50px;
+}
+.site {
+  background-image: url("../lorenzoovens/img/stucco.jpg");
+}
+.footer-top {
+  position: relative;
+}
+.footer-top:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -10px;
+  width: 100%;
+  height: 20px;
+  background-size: 20px 40px;
+}
+nav {
+  background-color: transparent !important;
+}
+.social-menu ul,
+.footer-menu ul {
+  margin: 0;
+  padding: 0;
+}
+.social-menu ul li {
+  display: inline-block;
+}
+.footer-description,
+.site-header .social-menu {
+  padding-left: 15px;
+}
+.site-header .children {
+  margin-top: 31px;
+}
+.widget_search .search-field {
+  width: 80%;
+}
+.widget-area .card {
+  padding: 15px;
+}
+.widget-area {
+  height: 100%;
+  display: block;
+}
+.profile-pic {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+.profile-btn {
+  width: 100%;
+}
+#post-1309 img {
+  width: 80%;
+  height: 80%;
+  margin: 20px auto;
+  display: block;
+  border-radius: 50%;
+}
+/*
+ * Screen Reader Text
+ -------------------------------------------- */
+.screen-reader-text {
+  display: none;
+}
+/*
+ * Comments
+ -------------------------------------------- */
+.comment-list,
+.children {
+  margin-left: 5px;
+  padding: 10px 0 10px 20px;
+}
+.comment-author {
+  padding: 10px;
+}
+.comment-content {
+  padding: 10px;
+}
+.comment-form .submit,
+.search-submit {
+  width: 100%;
+  padding: 10px 0;
+}
+a.waves-effect.waves-light.red.darken-4.btn.profile-btn {
+    background: #600e0d;
+}

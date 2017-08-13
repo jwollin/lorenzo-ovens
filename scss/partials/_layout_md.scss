@@ -1,0 +1,30 @@
+/*
+ * MENU
+ ------------------------------------------------------------------ */
+
+@media (max-width: 479px) {
+  .menu-toggle {
+    display: block;
+  }
+  .footer-description,
+  .site-footer .social-menu {
+    padding: 0;
+  }
+  .mobile-menu {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding: 60px 15px;
+    font-family: 'Oswald';
+    font-size: 25px;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #ffffff; /* Black w/ opacity */
+  }
+  .mobile-menu .sub-menu {
+    margin: 5px 20px;
+  }
+}
